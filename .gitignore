@@ -1,0 +1,13 @@
+node_modules/
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+build/
+dist/
+.DS_Store
+.~lock.*
+lab5/submission/
