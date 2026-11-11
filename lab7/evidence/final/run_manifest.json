@@ -1,0 +1,55 @@
+[
+  {
+    "name": "application_invalid",
+    "command": [
+      "C:\\Users\\soham\\OneDrive\\Desktop\\3rd year\\se\\lab\\lab7\\.venv\\Scripts\\python.exe",
+      "movie_tickets.py"
+    ],
+    "stdin": "\n150,,250\n\n",
+    "exit_code": 0,
+    "time_utc": "2026-11-11T03:51:00.172715+00:00"
+  },
+  {
+    "name": "application_valid",
+    "command": [
+      "C:\\Users\\soham\\OneDrive\\Desktop\\3rd year\\se\\lab\\lab7\\.venv\\Scripts\\python.exe",
+      "movie_tickets.py"
+    ],
+    "stdin": "H12\n150,250,400\n4 5 3\n",
+    "exit_code": 0,
+    "time_utc": "2026-11-11T03:51:00.278848+00:00"
+  },
+  {
+    "name": "fuzz_tests",
+    "command": [
+      "C:\\Users\\soham\\OneDrive\\Desktop\\3rd year\\se\\lab\\lab7\\.venv\\Scripts\\python.exe",
+      "-m",
+      "pytest",
+      "-q",
+      "--color=no",
+      "test_movie_tickets.py"
+    ],
+    "stdin": null,
+    "exit_code": 0,
+    "time_utc": "2026-11-11T03:51:09.783145+00:00"
+  },
+  {
+    "name": "fuzz_statistics",
+    "command": [
+      "C:\\Users\\soham\\OneDrive\\Desktop\\3rd year\\se\\lab\\lab7\\.venv\\Scripts\\python.exe",
+      "-m",
+      "pytest",
+      "-q",
+      "--color=no",
+      "--hypothesis-show-statistics",
+      "test_movie_tickets.py"
+    ],
+    "stdin": null,
+    "exit_code": 0,
+    "time_utc": "2026-11-11T03:51:13.967817+00:00"
+  },
+  {
+    "source_sha256": "f02b75f51b4f49c4b5aa175f816d66c1bd3173586483ca3202648b64f9870e23",
+    "test_sha256": "ab620f66d7596ddce030018da0d88af34efac1888996c34de9f7bd517f5479b6"
+  }
+]

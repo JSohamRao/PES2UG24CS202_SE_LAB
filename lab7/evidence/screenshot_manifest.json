@@ -1,0 +1,26 @@
+[
+  {
+    "file": "01_before_application.png",
+    "source": "Student-supplied PowerShell screenshot",
+    "attachment": "codex-clipboard-18a16032-ad0f-42fe-b2f7-81f65126f82d.png",
+    "sha256": "0af8a23ea1e18672f4c53919736dd88379dd63f2ffa7dbe80cde3189885d2b23"
+  },
+  {
+    "file": "02_failing_fuzz_tests.png",
+    "source": "Student-supplied PowerShell screenshot",
+    "attachment": "codex-clipboard-c439062e-ca53-441a-87ff-0822be64eaaa.png",
+    "sha256": "d7ae4b0aecbd4b8c065c307fcd19f60be07589655869d91c302e95b94231180e"
+  },
+  {
+    "file": "03_after_application.png",
+    "source": "Student-supplied PowerShell screenshot",
+    "attachment": "codex-clipboard-6f26f4bf-95aa-4506-a563-9774bce80964.png",
+    "sha256": "5e68257d83a38d2bcc9917bb3377490bec10cdc1915ba4bda18fb698c6e01533"
+  },
+  {
+    "file": "04_passing_fuzz_tests.png",
+    "source": "Student-supplied PowerShell screenshot",
+    "attachment": "codex-clipboard-1af6ce9c-5df7-463f-b234-08004a90c611.png",
+    "sha256": "009d769625af838dd32b56f5f90343119dbea51f94dcc85dfbdc406f6156ece1"
+  }
+]

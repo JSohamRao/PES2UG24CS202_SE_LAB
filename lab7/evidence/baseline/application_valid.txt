@@ -1,0 +1,8 @@
+==== Running parse_seat ====
+Enter a seat number (e.g. H12): Row and Seat: ('H', 12)
+
+==== Running total_price ====
+Enter ticket prices as CSV (e.g. 150,250,400): Total with GST: 944.0
+
+==== Running average_rating ====
+Enter ratings separated by spaces (e.g. 4 5 3): Average Rating: 4.0

@@ -1,0 +1,59 @@
+[
+  {
+    "name": "application_invalid",
+    "command": [
+      "C:\\Users\\soham\\OneDrive\\Desktop\\3rd year\\se\\lab\\lab7\\.venv\\Scripts\\python.exe",
+      "movie_tickets.py"
+    ],
+    "stdin": "\n150,,250\n\n",
+    "exit_code": 1,
+    "time_utc": "2026-11-11T03:49:30.845401+00:00"
+  },
+  {
+    "name": "application_valid",
+    "command": [
+      "C:\\Users\\soham\\OneDrive\\Desktop\\3rd year\\se\\lab\\lab7\\.venv\\Scripts\\python.exe",
+      "movie_tickets.py"
+    ],
+    "stdin": "H12\n150,250,400\n4 5 3\n",
+    "exit_code": 0,
+    "time_utc": "2026-11-11T03:49:30.929243+00:00"
+  },
+  {
+    "name": "fuzz_failures",
+    "command": [
+      "C:\\Users\\soham\\OneDrive\\Desktop\\3rd year\\se\\lab\\lab7\\.venv\\Scripts\\python.exe",
+      "-m",
+      "pytest",
+      "-q",
+      "--tb=short",
+      "--color=no",
+      "-k",
+      "no_crash",
+      "test_movie_tickets.py"
+    ],
+    "stdin": null,
+    "exit_code": 1,
+    "time_utc": "2026-11-11T03:49:40.698897+00:00"
+  },
+  {
+    "source_sha256": "65b5302f2bc6160acbf5e2bbc52b5addbfd798e62b106e2702ef97ec0bd08f60",
+    "test_sha256": "ab620f66d7596ddce030018da0d88af34efac1888996c34de9f7bd517f5479b6"
+  },
+  {
+    "name": "fuzz_failures_concise",
+    "command": [
+      "C:\\Users\\soham\\OneDrive\\Desktop\\3rd year\\se\\lab\\lab7\\.venv\\Scripts\\python.exe",
+      "-m",
+      "pytest",
+      "-q",
+      "--tb=line",
+      "--color=no",
+      "-k",
+      "no_crash",
+      "test_movie_tickets.py"
+    ],
+    "exit_code": 1,
+    "time_utc": "2026-11-11T03:55:16.428233+00:00"
+  }
+]

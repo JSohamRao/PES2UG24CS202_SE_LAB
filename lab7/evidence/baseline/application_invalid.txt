@@ -1,0 +1,11 @@
+==== Running parse_seat ====
+Enter a seat number (e.g. H12): Traceback (most recent call last):
+  File "C:\Users\soham\OneDrive\Desktop\3rd year\se\lab\lab7\work\baseline\movie_tickets.py", line 29, in <module>
+    main()
+  File "C:\Users\soham\OneDrive\Desktop\3rd year\se\lab\lab7\work\baseline\movie_tickets.py", line 15, in main
+    result = parse_seat(user_input)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\soham\OneDrive\Desktop\3rd year\se\lab\lab7\work\baseline\movie_tickets.py", line 2, in parse_seat
+    return seat[0].upper(), int(seat[1:])
+           ~~~~^^^
+IndexError: string index out of range

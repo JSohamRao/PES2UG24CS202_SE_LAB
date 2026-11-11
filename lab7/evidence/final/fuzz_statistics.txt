@@ -1,0 +1,86 @@
+..............................................................           [100%]
+============================ Hypothesis Statistics ============================
+test_movie_tickets.py::test_parse_seat_no_crash:
+
+  - during generate phase (0.18 seconds):
+    - Typical runtimes: < 1ms, of which < 1ms in data generation
+    - 300 passing, 0 failing, and 0 invalid test cases
+
+  - Stopped because settings.max_examples=300
+
+
+test_movie_tickets.py::test_total_price_no_crash:
+
+  - during generate phase (0.15 seconds):
+    - Typical runtimes: < 1ms, of which < 1ms in data generation
+    - 300 passing, 0 failing, and 0 invalid test cases
+
+  - Stopped because settings.max_examples=300
+
+
+test_movie_tickets.py::test_average_rating_no_crash:
+
+  - during generate phase (0.17 seconds):
+    - Typical runtimes: < 1ms, of which < 1ms in data generation
+    - 300 passing, 0 failing, and 0 invalid test cases
+
+  - Stopped because settings.max_examples=300
+
+
+test_movie_tickets.py::test_all_functions_reject_non_strings:
+
+  - during generate phase (0.21 seconds):
+    - Typical runtimes: < 1ms, of which < 1ms in data generation
+    - 300 passing, 0 failing, and 29 invalid test cases
+    - Events:
+      * 0.30%, Retried draw from text(characters(codec='utf-8'), max_size=10).filter(not_yet_in_unique_list) to satisfy filter
+
+  - Stopped because settings.max_examples=300
+
+
+test_movie_tickets.py::test_valid_seat_round_trip:
+
+  - during generate phase (0.13 seconds):
+    - Typical runtimes: < 1ms, of which < 1ms in data generation
+    - 300 passing, 0 failing, and 0 invalid test cases
+
+  - Stopped because settings.max_examples=300
+
+
+test_movie_tickets.py::test_valid_prices_match_independent_decimal_oracle:
+
+  - during generate phase (0.31 seconds):
+    - Typical runtimes: < 1ms, of which < 1ms in data generation
+    - 300 passing, 0 failing, and 51 invalid test cases
+
+  - Stopped because settings.max_examples=300
+
+
+test_movie_tickets.py::test_adding_a_nonnegative_price_cannot_reduce_total:
+
+  - during generate phase (0.15 seconds):
+    - Typical runtimes: < 1ms, of which < 1ms in data generation
+    - 300 passing, 0 failing, and 0 invalid test cases
+
+  - Stopped because settings.max_examples=300
+
+
+test_movie_tickets.py::test_valid_rating_average_and_order_invariance:
+
+  - during generate phase (0.25 seconds):
+    - Typical runtimes: < 1ms, of which < 1ms in data generation
+    - 300 passing, 0 failing, and 47 invalid test cases
+
+  - Stopped because settings.max_examples=300
+
+
+test_movie_tickets.py::test_repeated_rating_has_the_same_average:
+
+  - during generate phase (0.36 seconds):
+    - Typical runtimes: ~ 0-1 ms, of which < 1ms in data generation
+    - 300 passing, 0 failing, and 0 invalid test cases
+
+  - Stopped because settings.max_examples=300
+
+
+62 passed in 2.61s

@@ -1,0 +1,22 @@
+FFF                                                                      [100%]
+================================== FAILURES ===================================
+E   TypeError: 'NoneType' object is not subscriptable
+    Failing test case: test_parse_seat_no_crash(
+        s=None,
+    )
+C:\Users\soham\OneDrive\Desktop\3rd year\se\lab\lab7\work\baseline\movie_tickets.py:2: TypeError: 'NoneType' object is not subscriptable
+E   AttributeError: 'NoneType' object has no attribute 'split'
+    Failing test case: test_total_price_no_crash(
+        s=None,
+    )
+C:\Users\soham\OneDrive\Desktop\3rd year\se\lab\lab7\work\baseline\movie_tickets.py:5: AttributeError: 'NoneType' object has no attribute 'split'
+E   AttributeError: 'NoneType' object has no attribute 'split'
+    Failing test case: test_average_rating_no_crash(
+        s=None,
+    )
+C:\Users\soham\OneDrive\Desktop\3rd year\se\lab\lab7\work\baseline\movie_tickets.py:9: AttributeError: 'NoneType' object has no attribute 'split'
+=========================== short test summary info ===========================
+FAILED test_movie_tickets.py::test_parse_seat_no_crash - TypeError: 'NoneType...
+FAILED test_movie_tickets.py::test_total_price_no_crash - AttributeError: 'No...
+FAILED test_movie_tickets.py::test_average_rating_no_crash - AttributeError: ...
+3 failed, 59 deselected in 1.09s

@@ -1,0 +1,103 @@
+[
+  {
+    "function": "parse_seat",
+    "input": null,
+    "before": {
+      "exception": "TypeError",
+      "message": "'NoneType' object is not subscriptable"
+    },
+    "after": {
+      "value": null
+    }
+  },
+  {
+    "function": "parse_seat",
+    "input": "",
+    "before": {
+      "exception": "IndexError",
+      "message": "string index out of range"
+    },
+    "after": {
+      "value": null
+    }
+  },
+  {
+    "function": "parse_seat",
+    "input": "12",
+    "before": {
+      "value": [
+        "1",
+        2
+      ]
+    },
+    "after": {
+      "value": null
+    }
+  },
+  {
+    "function": "parse_seat",
+    "input": "H0",
+    "before": {
+      "value": [
+        "H",
+        0
+      ]
+    },
+    "after": {
+      "value": null
+    }
+  },
+  {
+    "function": "total_price",
+    "input": "150,,250",
+    "before": {
+      "exception": "ValueError",
+      "message": "invalid literal for int() with base 10: ''"
+    },
+    "after": {
+      "value": null
+    }
+  },
+  {
+    "function": "total_price",
+    "input": "-1",
+    "before": {
+      "value": -1.18
+    },
+    "after": {
+      "value": null
+    }
+  },
+  {
+    "function": "total_price",
+    "input": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+    "before": {
+      "exception": "OverflowError",
+      "message": "int too large to convert to float"
+    },
+    "after": {
+      "value": null
+    }
+  },
+  {
+    "function": "average_rating",
+    "input": "",
+    "before": {
+      "exception": "ZeroDivisionError",
+      "message": "division by zero"
+    },
+    "after": {
+      "value": null
+    }
+  },
+  {
+    "function": "average_rating",
+    "input": "6",
+    "before": {
+      "value": 6.0
+    },
+    "after": {
+      "value": null
+    }
+  }
+]
